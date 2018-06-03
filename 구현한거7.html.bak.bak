@@ -1,0 +1,410 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head><title>ABOUT: KIMLEENA</title>
+ 
+ <style>
+ *{
+ margin: 0; padding: 0;
+ font-family: '맑은 고딕', 'Malgun Gothic', Gothic, sans-serif;/*맑은고딕있으면 맑은고딕*/
+ }
+ a {text-decoration: none;}
+ li {list-style: none;}
+ legend{color: white;}
+ </style>
+
+ <style>
+ .pull-left{float: left;}
+ .pull-right{float: right;}
+ </style>
+<!--#page-wrapper 페이지 감싸는 부분-->
+<style>
+body {
+width: 960px; margin: 0 auto;
+background-color: #E6E6E6;
+}
+#page-wrapper {
+background: black;
+color:white;
+margin: 40px 0; padding: 10px 20px;
+/*border-radius: 5px;*/
+bow-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+}
+</style>
+
+<style>
+#main-header { padding: 40px 20px;}
+.master-title{/*제목 KIM LEE NA*/
+font-size: 40px;
+color:white;
+text-align: center;
+font-style: bold;
+text-decoration: underline;
+}
+.master-description {
+font-size: 15px; font-weight: 500;
+color: #ff84ee;
+}
+</style>
+
+<style>
+#main-navigation{
+	border-top: 1px solid #C8C8C8;
+	border-bottom: 1px solid #C8C8C8;
+	margin-bottom: 20px;
+	height: 40px;
+	}
+
+	.outer-menu-item {/*카테고리*/
+	float: left;
+	position: relative;/*자신 안 자식 요소 자유로이 움직임*/
+	}
+
+	.outer-menu-item:hover {/*마우스를 가져다 대면*/
+	background: darkgray;
+	color: white;
+	}
+
+	.menu-title {/*카테고리*/
+	display: block;
+	height: 30px; line-height: 30px;
+	text-align: center;
+	padding: 5px 20px;
+	color:white;
+	}
+
+	.inner-menu {
+	display: none;
+	position: absolute;
+	top: 40px; left: 0;
+	width: 100%;
+	background: white;
+	box-shadow: 0 2px 6px rgba(5, 5, 5, 0.9);
+	z-index: 1000;
+	text-align: center
+	}
+
+	.inner-menu-item > a {
+	display: block;
+	padding: 5px 10px;
+	color: white;
+	}
+	.inner-menu-item > a:hover {
+	background: black;
+	color: white;
+	}
+
+</style>
+
+	<!--검색칸-->
+<style>
+	.search-bar {
+	height: 20px;
+	padding: 7px;
+	}
+
+	.input-search {
+	display: block;
+	float: left;
+	background-color: black;
+	border: 1px solid white;
+	border-radius: 15px 0 0 15px;
+	box-shadow: inset 0 1px rgba(0,0,0,0.05);
+	width: 120px; height: 24px;
+	padding: 0 0 0 10px;
+	font-size: 12px;
+	color: white;
+	}
+
+	.input-search:focus{
+	border-color: rgba(82, 168, 236,0.8);
+	outline: 0;
+	bow-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	}
+
+	.input-search-submit {
+	display: block;
+	float: left;
+	width: 50px; height: 26px;
+	border-radius: 0 15px 15px 0;
+	border: 1px solid #CCCCCC;
+	margin-left: -1px;
+	vertical-align: top;
+	display: inline-block;
+	background-color: darkgray;
+
+	}
+
+</style>
+
+
+
+<style>
+	article{
+	padding: 0 10px 20px 10px;
+	border-bottom: 1px solid #C8C8C8;
+	}
+	.article-header {padding: 20px 0;  }
+	.article-title {/*메인 이미지 자리*/
+	font-size: 25px;
+	font-weight: 500;
+	padding-bottom: 10px;
+	}
+	.article-date { font-size: 13px;}
+	.article-body {
+	font-size: 14px;
+	}
+	</style>
+
+	<style>
+	.aside-list {padding: 10px 0 30px 0;}
+	.aside-list > h3 {
+	font-size: 15px;
+	font-weight: 600;
+	}
+	.aside-list li a {
+	margin-left: 8px;
+	font-size: 13px;
+	color: #6C6C6C;
+	}
+	</style>
+	<style>
+	#background{ /*이미지 자리 배경색*/
+	background-color: black;
+	}
+	.article-title{/*메인이미지*/
+	color: white;
+	text-align: center
+	}
+	.article-date{
+	color: #606060;
+	text-align: center
+	}
+	
+	</style>
+	<style>
+	.article-body{
+	width: 780px;
+	margin: 0 auto;
+
+	}
+	</style>
+	<style>
+	.article-body1{/*노래플레이 내용*/
+	color:white;
+	width: 100%;
+	margin: 0 auto;
+	}
+	</style>
+	<style>
+	.article-body2{/*기사내용*/
+	width: 100%;
+	margin: 0 auto;
+	color: white;
+	}
+	</style>
+	
+<style type="text/css">
+ a:link { color: white; text-decoration: none;}
+ a:visited { color: white; text-decoration: none;}
+ a:hover { color: white; text-decoration: none;}/*카테고리 밑줄제거*/
+</style>
+
+ <!--.article-title1은 포토 글자 뒤 배경색-->
+ <style>
+    #article-body { 
+      border: 1px gray solid;
+      background-color: lightgray;
+    }   
+  
+    #article-body img { 
+      border: 0.8em black solid;
+      padding: 3px;
+    }   
+  </style>
+
+  <!--배경색-->
+ <style>
+  body{
+  background-color: black;
+  color: white;
+	}
+ </style>
+
+
+<body>
+	
+    <div id="page-wrapper">
+        <header id="main-header">
+            <hgroup>
+                <h1 class="master-title">KIM LEE NA</h1>
+               
+            </hgroup>
+        </header>
+        <nav id="main-navigation">
+            <div class="pull-left">
+                <ul class="outer-menu">
+                    <li class="outer-menu-item">
+                        <a href="file:///D:/20171171/메인.html"><span class="menu-title">홈</span></a>
+                        
+                    </li>
+                    <li class="outer-menu-item">
+                        <a href="file:///D:/20171171/옛날의.html"><span class="menu-title">옛날의</span></a>
+                       
+                    </li>
+                    <li class="outer-menu-item">
+                        <a href="file:///D:/20171171/곡을 쓴 후.html"><span class="menu-title">곡을 쓴 후</span></a>
+                        
+                    </li>
+                
+				<li class="outer-menu-item">
+                         <a href="file:///D:/20171171/생각.html"><span class="menu-title">생각</span></a>
+                        
+                            
+                        
+                    </li>
+					<li class="outer-menu-item">
+                        <a href="file:///D:/20171171/sns.html"><span class="menu-title">SNS</span></a> 
+                      
+                    </li>
+					<li class="outer-menu-item">
+                        <a href="file:///D:/20171171/구현한거7.html"><span class="menu-title">로그인/회원가입</span></a>
+                        
+                    </li>
+					</ul>
+            </div>
+            <div class="pull-right">
+                <div class="search-bar">
+                    <form>
+                        <input type="text" class="input-search" />
+                        <input type="submit" class="input-search-submit" value="검색" />
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div id="content">
+            <section id="main-section">
+                
+                <article>
+                    <div class="article-header">
+                        <h1 class="article-title1">로그인/회원가입</h1>
+						</br>
+                    </div>
+
+                    
+                </article>
+				 <article>
+                    <div class="article-header">
+                        <h1 class="article-title1"></h1>
+                    </div>
+                    <div class="article-body2">
+                       <form>
+						<fieldset>
+						<legend><h3>로그인</h3></legend>
+					   <table>
+					   <tr></br></br>
+					   <td><label for="name">아이디</label></td>
+					   <td><input id="name" type="text" /></td>
+					   <td rowspan ="2"><input type = "submit" value="로그인" style="width: 40pt; height: 40pt";/></td>
+					   </tr>
+					   
+					   <td><label for="password">비밀번호</label></td>
+					   <td><input id="password" type="password" /></td>
+					   
+					   
+					   </tr>
+						<tr><td></br></td></tr>
+					   </table>
+					   
+					   
+					   </br></br>
+					   </fieldset>
+					   </form>
+
+					   </br></br></br>
+
+						<form>
+						<fieldset>
+						<legend><h3>회원가입</h3></legend> 
+					   <table>
+					   <tr></br></br>
+					   <td><label for="name">이름</label></td>
+					   <td><input id="name" type="text" /></td>
+					   </tr>
+					   <tr>
+					  <td><label for="name">아이디</label></td>
+					   <td><input id="name" type="text" />
+					    <input type = "submit" value="중복확인" /></td>
+						</tr>
+					  <tr>
+					  <td><label for="password">비밀번호</label></td>
+					   <td><input id="password" type="password" />
+					   <label for="password">비밀번호 확인</label>
+					   <input id="password" type="password" /></td>
+					 
+					   </tr>
+					   <tr><td>성별</td><td><label for="man">남성</label>
+					   <input id="man" type="radio" />
+					   <label for="woman">여성</label>
+					   <input id="woman" type="radio" /></td>
+					   </tr>
+					   <tr><td>이메일</td>
+					   <td><input id="email" type="text"/></td>
+					   </tr>
+					   <tr>
+					   <td>메일수신</td>
+					   <td><label for="agree">&nbsp&nbsp수신동의</label>
+					   <input id="phone" type="radio" />
+					   <label for="disagree">&nbsp&nbsp수신비동의</label>
+					   <input id="phone" type="radio" /></td>
+					   </tr>
+					   <tr>
+					   <td>주소</td>
+					   <td><input id="add" type="text"></td>
+					   </tr>
+					   <tr>
+					   <td>전화번호</td>
+					   <td><select name="Phone"><br>
+						<option value="SKT" selected(초기 선택된 항목)>SKT</option><br>
+						<option value="KT">KT</option><br>
+						<option value="LG">LG</option><br>
+						</select>&nbsp<input id="num" type="text">(입력양식 : 010-xxxx-xxxx)<br></td>
+						<tr>
+						<td>관심분야 </td>
+						<td>
+						<input type='checkbox' name='interest[]' value='17'> 로맨스
+						<input type='checkbox' name='interest[]' value='18'> 드라마
+						<input type='checkbox' name='interest[]' value='19'> 액션/스릴러
+						<input type='checkbox' name='interest[]' value='20'> 판타지
+						<input type='checkbox' name='interest[]' value='21'> 코믹
+						
+            </td>
+         </tr>
+					   </tr>
+					   
+					   <tr><td></br></td></tr>
+						
+					   </table>
+					   
+					   <input type = "submit" value="가입" style = "width: 60pt; height: 30pt;"/>
+					   <input type = "submit" value="취소" style = "width: 60pt; height: 30pt;/>
+					   </br></br></br>
+					   </fieldset>
+					   </form>
+					   </article>
+
+						<article>
+					   <div class="article-header">
+                        <h1 class="article-title1"></h1>
+                    </div>
+					<div class="article-body2">
+					
+                </article>
+            </section>
+            
+        </div>
+        <footer id="main-footer">
+            
+        </footer>
+    </div>
+</body>
+</html>
